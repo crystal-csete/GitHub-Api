@@ -40,7 +40,7 @@ const User = () => {
             <PageHeader
             style={{ background: 'rgba(255, 255, 255, 0.3)' }}
             ghost={false}
-            title="Search Github Users"
+            title="Search GitHub Users"
             subtitle="See there real time stats"
             >
                 <Descriptions size="small" column={3}>
@@ -52,13 +52,13 @@ const User = () => {
                 
                 <form style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignContent: 'center', alignItems: 'center', width: '80%', padding: '2rem' }} onSubmit={findUser}>
 
-                    <p>Input a Github user name below. See their stats and info. Once you have searched for a particular user, click on there Github profile link, and visit their Github page. Here, you can quickly see how many followers they have, their email, and read their biographies. You can then browse their repositories, or even check out any blogs they have. Have fun! </p>
+                    <p>Input a GitHub user name below. See their stats and info. Once you have searched for a particular user, click on there GitHub profile link, and visit their GitHub page. Here, you can quickly see how many followers they have, their email, and read their biographies. You can then browse their repositories, or even check out any blogs they have. Have fun! </p>
                     <Input
                         value={username}
                         onChange={updateInfo}
                         type="text"
-                        placeholder="Github Username"
-                        style={{ margin: '1rem', textAlign: 'center', width: '50%' }}
+                        placeholder="GitHub Username"
+                        style={{ margin: '1rem', width: '50%', textAlign: 'start', padding: '1rem', borderRadius: '6px' }}
                     />
                     <Button type="primary">
                         Search

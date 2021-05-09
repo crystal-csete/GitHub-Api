@@ -22,7 +22,7 @@ const UserProfile = (props) => {
                 target="_blank"
                 rel="noreferrer"
                 >
-                    Github Profile
+                    GitHub Profile
                 </a>
             </Card>
         </div>

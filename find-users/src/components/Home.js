@@ -17,7 +17,7 @@ const Home = () => {
         style={{ background: "rgba(255, 255, 255, 0.3)" }}
         ghost={false}
         title="Home"
-        subTitle="Your personal portal to find Github User Stats"
+        subTitle="Your personal portal to find GitHub User Stats"
       >
         <Descriptions size="small" column={3}>
           <Descriptions.Item label="Created By">Crystal's Pages</Descriptions.Item>
@@ -33,13 +33,13 @@ const Home = () => {
           </div>
           <div>
             <p style={contentStyle}>Here, you will be able to search for real users
-            that have accounts on Github.</p>
+            that have accounts on GitHub.</p>
           </div>
           <div>
             <p style={contentStyle}>Click 'Users' above to get started.</p>
           </div>
           <div>
-            <p style={contentStyle}>Also, click the Github logo to go directly to the Github website.</p>
+            <p style={contentStyle}>Also, click the GitHub logo to go directly to the GitHub website.</p>
           </div>
         </Carousel>
 

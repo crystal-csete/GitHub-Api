@@ -11,7 +11,7 @@ import User from "./User";
 import Home from "./Home";
 import SignIn from './SignIn';
 import Support from './Support';
-import Account from './Account';
+import Links from './Links';
 
 const Nav = () => {
   const [top, setTop] = useState(10);
@@ -45,7 +45,7 @@ const Nav = () => {
                   <img
                     style={{ width: "4rem", height: "4rem", marginLeft: '2rem' }}
                     src={Octocat}
-                    alt="github logo"
+                    alt=" logo"
                   />
                 </a>
               </li>
@@ -77,7 +77,7 @@ const Nav = () => {
                   type="link"
                   onClick={() => setTop(top + 10)}
                 >
-                  <Link to="/user"> <SearchOutlined /> Github Users</Link>
+                  <Link to="/user"> <SearchOutlined /> GitHub Users</Link>
                 </Button>
               </li>
               <li>
@@ -125,14 +125,14 @@ const Nav = () => {
                   type="link"
                   onClick={() => setTop(top + 10)}
                 >
-                  <Link to="/account"> <SmileOutlined /> Account</Link>
+                  <Link to="/account"> <SmileOutlined /> Links</Link>
                 </Button>
               </li>
             </ul>
           </nav>
           <Switch>
             <Route path="/account">
-              <Account />
+              <Links />
             </Route>
             <Route path="/support">
               <Support />
